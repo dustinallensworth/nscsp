@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>NorthSide Child Safety Program</title>
+        <!-- SCROLLS -->
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="app/bower_components/font-awesome/css/font-awesome.css"/>
+        <link rel="stylesheet" href="css/nscsp.css" />
+        <link rel="stylesheet" href="app/bower_components/fullcalendar/dist/fullcalendar.min.css"/>
+        <link rel="stylesheet" href="app/bower_components/fullcalendar/dist/fullcalendar.print.css"/>
+<!--
+        <script src="app/app.js"></script>
+        <script src="app/about/controllers/about.js"></script>
+        <script src="app/contact/contact.js"></script>
+        <script src="app/gallery/gallery.js"></script>
+        <script src="app/home/home.js"></script>
+        <script src="app/schedule/schedule.js"></script>
+-->
+    </head>
+
+    <body ng-controller="homeController">
+        <div class="background-middle"></div>
+
+        <!-- HEADER AND NAVBAR -->
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#/">NorthSide Child Safety Program</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#about"><i class="fa fa-book"></i> About</a></li>
+                        <li><a href="#schedule"><i class="fa fa-calendar"></i> Class Schedule</a></li>
+                        <li><a href="#gallery"><i class="fa fa-camera"></i> Photo Gallery</a></li>
+                        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+                <div class="container">
+                    <div class="navbar-header footer">
+                        <img src="img/usa_flag.gif" id="usa-flag">
+                        <a class="navbar-brand" href="http://www.itftangsoodo.com/" target="_blank">Proud member of The International Tang Soo Do Federation</a>
+                        <img src="img/itf_logo.png" id="itf-logo">
+                        <img src="img/south_korean_flag.gif" id="south-korean-flag">
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view></div>
+            <script data-main="app/main.js" src="app/bower_components/requirejs/require.js"></script>
+<!--
+            <script src="app/bower_components/angular/angular.js"></script>
+            <script src="app/bower_components/angular-route/angular-route.js"></script>
+            <script src="app/bower_components/jquery/dist/jquery.min.js"></script>
+            <script src="app/bower_components/moment/min/moment.min.js"></script>
+            <script src="app/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+            <script>
+                (function(){
+                    require(['main', function(){
+
+                    }]);
+                }());
+            </script>
+-->
+        </div>
+    </body>
+</html>

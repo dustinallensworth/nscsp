@@ -1,0 +1,10 @@
+define([
+    'angular',
+    'controllers/about'
+], function () {
+    'use strict';
+
+    return angular.module('nscspApp.about', [
+        'nscspApp.about.controller'
+    ]);
+});

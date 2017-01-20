@@ -1,0 +1,22 @@
+<div id="about">
+    <h1 class="text-center">About</h1>
+
+    <div class="jumbotron" id="about-program">
+        <h2>Program</h2>
+        <p>{{ about.program.text1 }}</p>
+        <p>{{ about.program.text2 }}</p>
+        <p>{{ about.program.text3 }}</p>
+        <p>{{ about.program.text4 }}</p>
+        <p>{{ about.program.news1 }}<a ng-href="{{about.program.newsLink}}" target="_blank">{{ about.program.news2 }}</a>{{about.program.news3}}</p>
+    </div>
+    <div class="jumbotron" id="about-instructor">
+        <img ng-src="img/photos/Kyo_Sa_Nim_Allensworth.jpg">
+        <h2>Instructor</h2>
+        <p>{{ about.instructor.text1 }}</p>
+        <p>{{ about.instructor.text2 }}</p>
+        <p>{{ about.instructor.text3 }}</p>
+        <p>{{ about.instructor.text4 }}</p>
+        <p>{{ about.instructor.text5 }}</p>
+        <p><a ng-href="mailto:{{about.instructor.email}}">{{about.instructor.email}}</a></p>
+    </div>
+</div>

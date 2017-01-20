@@ -1,0 +1,18 @@
+{
+  "name": "nscsp",
+  "description": "Northside Child Safety Program",
+  "main": "index.html",
+  "authors": [
+    "Dustin Allensworth"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

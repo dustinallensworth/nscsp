@@ -1,0 +1,94 @@
+[
+    {
+        "title": "Black Belt Testing",
+        "start": "Sun, 27 Apr 2014 11:30:00",
+        "allDay": false
+    },
+    {
+        "title": "40th Nationals Tournament",
+        "start": "Sat, 17 May 2014",
+        "allDay": true
+    },
+    {
+        "title": "Gup Test",
+        "start": "Wed, 18 Jun 2014 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Black-Belt promotions - Congratulations Matt and Mason",
+        "start": "Sun, 22 Jun 2014 09:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Make-up Gup Test - Monroeville C.S. Kim Karate",
+        "start": "Fri, 27 Jun 2014 18:00:00",
+        "allDay": false
+    },
+    {
+         "title": "13th World Championship - Lisbon, Portugal",
+         "start": "Thu, 24 Jul 2014",
+         "end": "Sun, 27 Jul 2014",
+         "allDay": true
+    },
+    {
+        "title": "Class at Y.M.C.A (600 West North Ave., Pittsburgh, PA 15212)",
+        "start": "Wed, 20 Aug 2014 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Class at Y.M.C.A (600 West North Ave., Pittsburgh, PA 15212)",
+        "start": "Fri, 22 Aug 2014 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Kennywood Day (Demonstrations at 2pm and 6pm)",
+        "start": "Sat, 23 Aug 2014",
+        "allDay": true
+    },
+    {
+        "title": "Black Belt Re-recertification",
+        "start": "Sat, 25 Oct 2014 08:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Black Belt Pre-testing",
+        "start": "Sun, 26 Oct 2014 08:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Fundraising Tournament",
+        "start": "Sat, 8 Nov 2014",
+        "allDay": true
+    },
+    {
+        "title": "Gup Test",
+        "start": "Wed, 1 June 2016 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Gup Test in Monroeville",
+        "start": "Wed, 15 June 2016 18:00:00",
+        "allDay": false
+    },
+    {
+         "title": "14th World Championship - Washington, D.C.",
+         "start": "Thu, 4 Aug 2016",
+         "end": "Mon, 8 Aug 2016",
+         "allDay": true
+    },
+    {
+        "title": "No Class",
+        "start": "Fri, 5 Aug 2016 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "No Class",
+        "start": "Wed, 10 Aug 2016 18:00:00",
+        "allDay": false
+    },
+    {
+        "title": "Gup Test",
+        "start": "Wed, 14 Sep 2016 18:00:00",
+        "allDay": false
+    }
+]

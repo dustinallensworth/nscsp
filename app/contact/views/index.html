@@ -1,0 +1,21 @@
+<div id="contact">
+    <h1 class="text-center">Contact Information</h1>
+
+    <div class="jumbotron" id="contact-address">
+        <h2>Address</h2>
+        <p>{{contact.address.name}}</p>
+        <p>{{contact.address.street}}</p>
+        <p>{{contact.address.city}}, {{contact.address.state}}</p>
+        <p>{{contact.address.zip}}</p>
+    </div>
+    <div class="jumbotron" id="contact-director">
+        <img ng-src="img/photos/Oliver_Hall_2.jpg">
+        <h2>Director</h2>
+        <p>{{contact.director.name}}</p>
+        <p>{{contact.director.phone}}</p>
+        <p><a ng-href="mailto:{{contact.director.email}}">{{contact.director.email}}</a></p>
+    </div>
+    <div class="jumbotron">
+        <div id="contact-map" data-ng-init="loadMap()"></div>
+    </div>
+</div>

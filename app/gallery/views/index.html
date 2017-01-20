@@ -1,0 +1,8 @@
+<div class="jumbotron text-center">
+    <div id="rotating-item-wrapper" data-ng-init="init()">
+        <div id="gallery-loading-spinner"></div>
+        <div ng-repeat="photo in photos">
+            <img ng-src="{{photo}}" class="rotating-item"/>
+        </div>
+    </div>
+</div>
